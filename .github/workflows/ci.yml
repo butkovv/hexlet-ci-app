@@ -1,4 +1,8 @@
 # Пример для проекта на Node.js
+# file: .github/workflows/show-directory.yml
+name: ci
+# on – определяет события, которые запускают воркфлоу
+on: push
 jobs:
   build: # имя взято для примера
     runs-on: ubuntu-latest
